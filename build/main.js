@@ -61,11 +61,11 @@ var HomePage = /** @class */ (function () {
     }
     HomePage.prototype.ionViewDidLoad = function () {
         this.barChart = new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](this.barCanvas.nativeElement, {
-            type: 'bar',
+            type: 'radar',
             data: {
                 labels: ["institucional", "Blue", "Yellow", "Green", "Purple", "Orange"],
                 datasets: [{
-                        label: '# of Votes',
+                        label: 'porcentajes',
                         data: [12, 19, 3, 5, 2, 3],
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',
