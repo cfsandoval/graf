@@ -63,7 +63,7 @@ var HomePage = /** @class */ (function () {
         this.barChart = new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](this.barCanvas.nativeElement, {
             type: 'radar',
             data: {
-                labels: ["institucional", "Blue", "Yellow", "Green", "Purple", "Orange"],
+                labels: ["institucional", "diseño", "Yellow", "Green", "Purple", "Orange"],
                 datasets: [{
                         label: 'porcentajes',
                         data: [12, 19, 3, 5, 2, 3],
